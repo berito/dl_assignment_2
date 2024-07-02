@@ -1,0 +1,100 @@
+/* Header */
+.page-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  /* border-radius: 10px; */
+  margin-top: 0; /* Remove top margin */
+  margin-right: 0; /* Remove right margin */
+  margin-left: 0; /* Remove left margin */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Footer */
+.page-footer {
+  background-color:#4CAF50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-footer p {
+  margin: 0;
+}
+
+/* Form Container */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Textarea */
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button */
+.form-group button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+/* File Upload */
+.file-upload {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center vertically */
+}
+
+.file-upload input[type="file"] {
+  flex: 1; /* Expand to fill remaining space */
+  margin-right: 10px; /* Add space between input and button */
+}
+
+.file-upload button {
+  padding: 10px 15px; /* Adjust button padding */
+}
